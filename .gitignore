@@ -1,0 +1,21 @@
+# Unreal build output
+AiProgramming/Binaries/
+AiProgramming/Build/
+AiProgramming/Intermediate/
+AiProgramming/Saved/
+AiProgramming/DerivedDataCache/
+AiProgramming/FileOpenOrder/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Compiled files
+*.pdb
+*.exp
+*.lib
+
+# Exclude packaged builds
+*.pak
+*.sig
