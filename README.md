@@ -10,14 +10,14 @@ My BT is set up around 2 main flows:
 2. **Reaction flow** (after perception trigger):
    - Switch from patrol to reaction/chase behavior when the player is sensed.
    - If the player is lost, leave reaction mode and return to patrol.
-
-The important part is that the AI does **not** stay stuck in alert forever.  
-It can detect, react, lose target, and recover back to normal patrol.
+     
+3. - Shoot player when in range.
+   
 
 ## Blackboard keys used
 
 - `TargetActor` - stores the detected player actor (or `None` when not detected).
-- `PatrolLocation` - current destination point for patrol movement.
+- `EnemyClose` - (bool) - true when player is within range.
 - `CanSeePlayer` (bool) - true when the perception sense is currently detecting the player.
 
 ## AIPerception setup (exactly one sense)
