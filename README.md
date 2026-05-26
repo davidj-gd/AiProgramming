@@ -38,4 +38,5 @@ This repository includes Git LFS tracking
 - Attack/shoot when player is in radius
 - Return to patrol after detection is lost
 
-
+Video: 
+https://youtu.be/mksy30LK_Is
